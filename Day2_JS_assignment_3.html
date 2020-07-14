@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><h2>  Program to Dsiplay Date in mm-dd-yyy and mm/dd/yyyy format </h2></head>
+<body>
+    <br>
+    <script>
+        var date =new Date();  
+        var day = date.getDate();  
+        var month = date.getMonth()+1;  
+        var year = date.getFullYear();  
+        document.writeln( day +"-"+ month +"-"+ year );
+        document.writeln("Second format : "+ day +"/"+ month +"/"+ year );  
+    </script>
+</body>
+</html>
